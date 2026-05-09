@@ -65,6 +65,9 @@ jobs:
           # === 通知渠道 ===
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
 
+          # === 搜索引擎（新闻舆情）===
+          TAVILY_API_KEYS: ${{ secrets.TAVILY_API_KEYS }}
+
           # === 自选股 ===
           STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST }}
 
